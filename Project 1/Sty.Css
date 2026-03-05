@@ -80,3 +80,19 @@ button:hover { filter: brightness(1.05); }
   color: #ff7b7b;
   min-height: 1.2em;
 }
+
+.next-btn,
+.back-btn {
+  background: #10b981;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.next-btn:hover,
+.back-btn:hover {
+  filter: brightness(1.05);
+}
+
+.export-btn {
+  background: #8b5cf6;
+}

@@ -106,3 +106,11 @@ function exportToPDF() {
 salePriceEl.addEventListener("keydown", (e) => {
   if (e.key === "Enter") calculate();
 });
+
+// Page navigation
+const nextPageBtn = document.getElementById("nextPageBtn");
+if (nextPageBtn) {
+  nextPageBtn.addEventListener("click", () => {
+    window.location.href = "Page2.Html";
+  });
+}
